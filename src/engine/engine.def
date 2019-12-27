@@ -1,0 +1,11 @@
+LIBRARY   engine
+
+EXPORTS    
+ process				@1
+ hprocess				@2
+ segintersect			@3
+ segintersectfast		@4
+ extrudeshadow			@5
+ computenormals			@6
+ visible				@7
+ formalisetex			@8

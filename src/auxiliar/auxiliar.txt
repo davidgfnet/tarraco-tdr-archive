@@ -1,0 +1,96 @@
+'With TheGameSlot
+'
+'    Select Case WorldID
+'    Case 1
+'        Select Case door
+'        Case 1
+'            .Position = v3(29, 6.5, 86)
+'            .RotationH = 25
+'        Case 2
+'            .Position = v3(28, 0.1, 83)
+'            .RotationH = 25
+'        Case 3
+'            .Position = v3(-292, 6.5, 87)
+'            .RotationH = 270
+'        Case 4
+'            .Position = v3(-247, 4, 77)
+'            .RotationH = 0
+'        End Select
+'    Case 2
+'        Select Case door
+'        Case 1
+'            .Position = v3(20, 12, 100)
+'            .RotationH = 90
+'        Case 2
+'            .Position = v3(-292, 12, 100)
+'            .RotationH = 270
+'        End Select
+'    Case 3
+'        Select Case door
+'        Case 1
+'            .Position = v3(-6, 0, -11)
+'            .RotationH = 180
+'        Case 2
+'            .Position = v3(-8, 6, -11)
+'            .RotationH = 180
+'        Case 3
+'            .Position = v3(-8, 11.5, -8)
+'            .RotationH = 270
+'        End Select
+'    Case 4
+'        Select Case door
+'        Case 1
+'            .Position = v3(-2.4, 0, -3.8)
+'            .RotationH = 270
+'        End Select
+'    End Select
+'End With
+
+
+
+
+'Select Case TheGameSlot.WorldID
+'Case 1
+'    If CheckPointInCube(v3(29.1, 6, 91), v3(31.7, 9, 89.6), CharPos) And NoLock("circ_pret_up") Then
+'        EnterNewWorld 3, 2      'circ_pret_up
+'        Exit Sub
+'    End If
+'    If CheckPointInCube(v3(27, -1, 88), v3(32, 3, 86), CharPos) And NoLock("circ_pret_down") Then
+'        EnterNewWorld 3, 1      'circ_pret_down
+'        Exit Sub
+'    End If
+'    If CheckPointInCube(v3(-246.6, -1, -11.5), v3(-249.1, 3, -12.5), CharPos) And NoLock("circ_tavernae") Then
+'        EnterNewWorld 4, 1      'circ_tavernae
+'        Exit Sub
+'    End If
+'    If CheckPointInCube(v3(-24.5, 3, -27.8), v3(-23.3, 6, -28.5), CharPos) And NoLock("circ_house1") Then
+'        EnterNewWorld 5, 1        'circ_house1
+'        Exit Sub
+'    End If
+'Case 2
+'    If CheckPointInCube(v3(23.5, 11, 101.5), v3(25, 15, 98.5), CharPos) And NoLock("forum_pret") Then
+'        EnterNewWorld 3, 3      'forum_pret
+'        Exit Sub
+'    End If
+'    If CheckPointInCube(v3(-297, 11, 101.5), v3(-296, 15, 99), CharPos) And NoLock("forum_circ_left") Then
+'        EnterNewWorld 1, 3      'forum_circ_left
+'        Exit Sub
+'    End If
+'Case 3
+'    If CheckPointInCube(v3(-7.5, -1, -14), v3(-4, 4, -15), CharPos) And NoLock("pret_circ_down") Then
+'        EnterNewWorld 1, 2      'pret_circ_down
+'        Exit Sub
+'    End If
+'    If CheckPointInCube(v3(-9, 5.5, -14), v3(-6.5, 9, -15), CharPos) And NoLock("pret_circ_up") Then
+'        EnterNewWorld 1, 1      'pret_circ_up
+'        Exit Sub
+'    End If
+'    If CheckPointInCube(v3(-13, 11, -7), v3(-11.75, 15, -9.5), CharPos) And NoLock("pret_forum") Then
+'        EnterNewWorld 2, 1      'pret_forum
+'        Exit Sub
+'    End If
+'Case 4
+'
+'Case 5
+'    '-21.7    1.63    -27.9
+'End Select

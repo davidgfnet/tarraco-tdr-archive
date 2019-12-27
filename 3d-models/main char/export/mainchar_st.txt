@@ -1,0 +1,2 @@
+nummeshes=1
+duration=0

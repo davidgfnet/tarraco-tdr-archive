@@ -1,0 +1,2 @@
+nummeshes=20
+duration=600

@@ -1,0 +1,52 @@
+// cal3dvb.idl : IDL source for cal3dvb.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (cal3dvb.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(01E7F1E4-D966-46A2-9D48-78273FA6B86F),
+		dual,
+		helpstring("ICal3DObject Interface"),
+		pointer_default(unique)
+	]
+	interface ICal3DObject : IDispatch
+	{
+		[id(1), helpstring("method loadmesh")] HRESULT loadmesh(BSTR *file, int *meshid);
+		[id(2), helpstring("method loadskeleton")] HRESULT loadskeleton(BSTR *file, int *result);
+		[id(3), helpstring("method loadanimation")] HRESULT loadanimation(BSTR *file, int *animid);
+		[id(4), helpstring("method loadmaterial")] HRESULT loadmaterial(BSTR *file, int *matid);
+		[id(5), helpstring("method createmodel")] HRESULT createmodel(int *modelid);
+		[id(6), helpstring("method render")] HRESULT render(int modelid, int *numvertices, int *numfaces, int *nummaterials, float *vertices, float *uvcoords, int *indices , int *textures, int *atributes, int using_vs);
+		[id(7), helpstring("method setlod")] HRESULT setlod(int modelid, float lod);
+		[id(8), helpstring("method update")] HRESULT update(int modelid, float eseconds);
+		[id(9), helpstring("method blendcycle")] HRESULT blendcycle(int modelid, int animid, float weight, float delay);
+		[id(10), helpstring("method clearcycle")] HRESULT clearcycle(int modelid, int animid, float delay);
+		[id(11), helpstring("method setanimationtime")] HRESULT setanimationtime(int modelid, float time);
+		[id(12), helpstring("method ready")] HRESULT ready(int *texturelist, int *numtextures);
+		[id(13), helpstring("method getanimationduration")] HRESULT getanimationduration(int animid, float *animationduration);
+		[id(14), helpstring("method executeaction")] HRESULT executeaction(int modelid, int animid, float delayin, float delayout, float weight);
+	};
+
+[
+	uuid(0FEE9E62-3C15-448D-ADA0-5D79C80E3996),
+	version(1.0),
+	helpstring("Cal3D Interface Library For Visual Basic")
+]
+library CAL3DVBLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(6F1BCB9E-077E-4F5C-8732-9B361F7763E9),
+		helpstring("Cal3DObject Class")
+	]
+	coclass Cal3DObject
+	{
+		[default] interface ICal3DObject;
+	};
+};

@@ -1,0 +1,26 @@
+HKCR
+{
+	Cal3dvb.Cal3DObject.1 = s 'Cal3DObject Class'
+	{
+		CLSID = s '{6F1BCB9E-077E-4F5C-8732-9B361F7763E9}'
+	}
+	Cal3dvb.Cal3DObject = s 'Cal3DObject Class'
+	{
+		CLSID = s '{6F1BCB9E-077E-4F5C-8732-9B361F7763E9}'
+		CurVer = s 'Cal3dvb.Cal3DObject.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {6F1BCB9E-077E-4F5C-8732-9B361F7763E9} = s 'Cal3DObject Class'
+		{
+			ProgID = s 'Cal3dvb.Cal3DObject.1'
+			VersionIndependentProgID = s 'Cal3dvb.Cal3DObject'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{0FEE9E62-3C15-448D-ADA0-5D79C80E3996}'
+		}
+	}
+}

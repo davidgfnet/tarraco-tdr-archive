@@ -1,0 +1,10 @@
+newmtl color1
+Ns 30
+Ka 0 0 0
+Kd 1 0.729412 0.560769
+Ks 0.0470588 0.0470588 0.0470588
+newmtl Preview
+Ns 10
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0

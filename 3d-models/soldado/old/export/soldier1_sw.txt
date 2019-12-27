@@ -1,0 +1,2 @@
+nummeshes=37
+duration=1100

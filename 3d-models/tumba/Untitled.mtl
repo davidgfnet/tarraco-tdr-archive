@@ -1,0 +1,98 @@
+newmtl RT_BasePlain
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain2.jpg
+map_Bump  TS2plain2BUM.jpg
+newmtl RT_Ground
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain.jpg
+map_Bump  TS2plainBUM.jpg
+newmtl RT_ColsBases
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain2.jpg
+map_Bump  TS2plain2BUM.jpg
+newmtl RT_COLcaps
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain2.jpg
+map_Bump  TS2plain2BUM.jpg
+newmtl RT_COLbod
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain.jpg
+map_Bump  TS2plainBUM.jpg
+newmtl RT_MetOrns
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2rust.jpg
+map_Bump  TS2rustBUM.jpg
+newmtl RT_FacesUD
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2face.jpg
+map_Bump  TS2faceBUM.jpg
+newmtl RT_mainWall
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2wall.jpg
+map_Bump  TS2wallBUM.jpg
+newmtl RT_ColPets
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain.jpg
+map_Bump  TS2plainBUM.jpg
+newmtl RT_Innicheedges
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain.jpg
+map_Bump  TS2plainBUM.jpg
+newmtl RT_TopPlain
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain2.jpg
+map_Bump  TS2plain2BUM.jpg
+newmtl RT_SidePans
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2plain2.jpg
+map_Bump  TS2plain2BUM.jpg
+newmtl RT_IntNiche
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2niche.jpg
+map_Bump  TS2nicheBUM.jpg
+newmtl RT_IntNicheUp
+Ns 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+map_Kd TS2cupsmall.jpg
+map_Bump  TS2cupsmallBUM.jpg

@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: engine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Release/info.res" /d "NDEBUG" "C:\Documents and Settings\David\Mis documentos\gameproject\engine\info.rc"" 
+Creating temporary file "C:\DOCUME~1\David\CONFIG~1\Temp\RSP58C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/engine.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\box.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\box_bld.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\coldet.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\coldet_bld.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\engine.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\math3d.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\mytritri.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\sysdep.cpp"
+"C:\Documents and Settings\David\Mis documentos\gameproject\engine\tritri.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\David\CONFIG~1\Temp\RSP58C.tmp" 
+Creating temporary file "C:\DOCUME~1\David\CONFIG~1\Temp\RSP58D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/engine.pdb" /machine:I386 /def:".\engine.def" /out:"Release/engine.dll" /implib:"Release/engine.lib" 
+".\Release\box.obj"
+".\Release\box_bld.obj"
+".\Release\coldet.obj"
+".\Release\coldet_bld.obj"
+".\Release\engine.obj"
+".\Release\math3d.obj"
+".\Release\mytritri.obj"
+".\Release\sysdep.obj"
+".\Release\tritri.obj"
+".\Release\info.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\David\CONFIG~1\Temp\RSP58D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+box.cpp
+box_bld.cpp
+coldet.cpp
+coldet_bld.cpp
+engine.cpp
+math3d.cpp
+mytritri.cpp
+sysdep.cpp
+tritri.c
+Linking...
+   Creating library Release/engine.lib and object Release/engine.exp
+LINK : warning LNK4089: all references to "OLEAUT32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+engine.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
