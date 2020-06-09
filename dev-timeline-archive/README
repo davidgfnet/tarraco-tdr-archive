@@ -1,0 +1,14 @@
+
+This directory contains several binary-only snapshots (spanning across
+multiple projects) that were taken during the development of Tarraco.
+
+They range from a basic demo that was used as a starting point to the
+full game (version 0.25). There's interesting middle points such the
+two collision playgrounds that I created to test the game "engine",
+mainly to ensure collision was sound and viable before going for the
+full game design.
+
+Sadly lack of git/cvs system means the source code is mostly gone for
+these intermediate projects. However some of them still have a full
+code snapshot (at least for the VB6 bits).
+

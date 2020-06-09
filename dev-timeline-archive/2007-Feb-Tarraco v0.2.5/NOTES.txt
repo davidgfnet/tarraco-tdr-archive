@@ -1,0 +1,2 @@
+maps/sky.dat comes from version 0.3 since the backup was corrupted.
+Surprisingly seems like that is not a problem.
